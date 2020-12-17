@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    
+  <title>Launchstore</title>
+  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+  
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <a href="#">
+        <div class="logo">
+          <h1>Launchstore</h1>
+          <h2> COMPRA E VENDA</h2>
+        </div>
+      </a>
+  
+      <form action="#" method="get" class="search">
+        <input type="text" name="filter"placeholder="Buscar por produtos">
+      </form>
+  
+      <nav class="primary">
+        <ul>
+          <li>
+            <a href="#">
+              <i class="material-icons">add</i>
+              Novo anúncio
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="material-icons">account_circle</i>
+              Minha conta
+            </a>
+          </li>
+        </ul>
+      </nav>
+  
+    </div>
+  </header>
+
+  <section class="container form">
+    <form class="card" method="POST" action="/products" enctype="multipart/form-data">
+      
+      <div class="header">
+          <h3>Cadastrar Produtos </h3>
+      </div>
+
+      <div class="fields">
+        
+        <div class="item">
+          <div>Título</div>
+          <div>
+            <input type="text"name="name"placeholder="Digite o título do produto" >
+          </div>
+        </div>
+
+        <div class="item">
+          <div>Descrição</div>
+          <div>
+            <textarea name="description"></textarea>
+          </div>
+        </div>
+
+        <div class="item">
+          <div>Fotos</div>
+          <div>
+      
+            <div id="photos-upload">
+              <input 
+                id="photos-input"
+                type="file"
+                name="photos"
+                multiple
+                accept="image/*"
+			        >
+              
+            </div>
+      
+            <div id="photos-preview">
+                
+            </div>
+      
+        </div>
+      </div>
+    </div>
+
+    <button class="button"type="submit">SALVAR</button>
+    </form>
+
+  </section>
+
+
+  <footer>Copyright Launchstore</footer>
+   
+</body>
+</html> 

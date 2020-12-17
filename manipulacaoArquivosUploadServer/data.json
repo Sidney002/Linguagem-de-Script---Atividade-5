@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "name": "Sidney",
+      "description": "desenvolvedor",
+      "filePaths": [
+        "public\\images\\1608153700753-1e935fa132618c0f09e9e848ed9b7538.jpg",
+        "public\\images\\1608153700759-alone-boy-standing-thinking-lovesove.jpg",
+        "public\\images\\1608153700766-c3e085a64e8aedb36feeca19e4113198.jpg"
+      ]
+    },
+    {
+      "name": "Sidney",
+      "description": "dev",
+      "filePaths": [
+        "public\\images\\1608154443830-wallhaven-0jydpp (1).jpg"
+      ]
+    },
+    {
+      "name": "Sidney",
+      "description": "aluno",
+      "filePaths": [
+        "public\\images\\1608162416977-1e935fa132618c0f09e9e848ed9b7538.jpg",
+        "public\\images\\1608162416981-alone-boy-standing-thinking-lovesove.jpg",
+        "public\\images\\1608162416990-c3e085a64e8aedb36feeca19e4113198.jpg"
+      ]
+    }
+  ]
+}
